@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  background-color: maroon;
+  height: 100%;
+}
+main {
+  padding: 20px;
+  flex-direction: column;
+  box-shadow: maroon;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    width: 30%;
+    margin-top: 3%;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    height: 100vh;
+    overflow-y: hidden;
+    border-radius: none !important;
+  }
+}
+
+p {
+  text-align: center;
+}
+#results {
+  color: black;
+  font-weight: 700;
+}
+.gender {
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+small {
+  margin-bottom: 20px;
+  color: #7a7a7a;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+button {
+  background: cyan;
+  border: none;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+#emptyvalue {
+  color: red;
+}
+#errorMessage {
+  color: red;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+}

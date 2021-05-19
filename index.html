@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kamba AKA names</title>
+</head>
+
+<body>
+    <main id="wrapper" class="wrapper">
+        <br><br />
+        <h2 id="tipMessage">
+            Enter Your birthday and choose gender to get your Kamba AKA name.
+        </h2>
+        <br><br />
+        <input type="text" value="" id="date" placeholder="dd/mm/yyyy" />
+        <div>
+            <small class="desc">Format: dd/mm/yyyy</small>
+        </div>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br><br />
+
+        <button onclick="getakaname()">
+            SUBMIT
+        </button>
+
+        <br><br />
+
+        <p id="results"></p>
+
+        <p id="errorMessage"></p>
+
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
